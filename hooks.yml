@@ -1,0 +1,17 @@
+# GLYPH Registry — hooks.yml
+# ------------------------------------------------------------
+# Add new entries via PR. Each stanza must include **name, contract,
+# network, repo, description**.  Delete the leading “#” on your stanza.
+# ------------------------------------------------------------
+
+# - name: ExampleHook                # unique, no spaces
+#   author: "@yourhandle"            # optional GitHub or ENS
+#   contract: "0x0123abcd…"          # Starknet address (0x… hex)
+#   network: "starknet-mainnet"      # or starknet-testnet
+#   repo: "https://github.com/you/example-hook"
+#   description: |
+#     One-line summary of what the hook returns
+#     and its expected params.
+#   example:
+#     call: "[param1, param2]"       # encoded felts
+#     svg:  "https://ipfs.io/ipfs/QmExample"   # or `result:` for non-SVG hooks
